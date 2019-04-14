@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mpgclient:
+    build: ./client
+    image: mpgclient
+    container_name: mpgclient
+    command: npm run start
+    stdin_open: true
+    tty: true
+    ports:
+      - 3000:3000
+    volumes:
+      - ./client:/usr/app
+      - /usr/app/node_modules
