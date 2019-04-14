@@ -68,7 +68,7 @@ class MpgApp extends Component {
         <AppWrapper>
           <AppHeader>
             <AppLogo src={logo} alt="logo" />
-            <AppIntro>MPG APP!!</AppIntro>
+            <AppIntro>This is for the MPG app</AppIntro>
             <AppIntro>
               Components styled with <code>styled-components</code>{' '}
               <span aria-label="nail polish" role="img">

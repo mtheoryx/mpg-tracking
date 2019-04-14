@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import styled, { keyframes, createGlobalStyle } from 'styled-components';
 import logo from './logo.svg';
+import DemoApp from '../DemoApp/DemoApp';
+import MpgApp from '../MpgApp/MpgApp';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -61,33 +63,47 @@ const AppIntro = styled.p`
   }
 `;
 
-class App extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <AppWrapper>
-          <AppHeader>
-            <AppLogo src={logo} alt="logo" />
-            <AppIntro>App switcher Loading screen</AppIntro>
-            <AppIntro>
-              Components styled with <code>styled-components</code>{' '}
-              <span aria-label="nail polish" role="img">
-                💅
-              </span>
-            </AppIntro>
-            <AppLink
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              App Switcher
-            </AppLink>
-          </AppHeader>
-        </AppWrapper>
-        <GlobalStyle />
-      </React.Fragment>
-    );
-  }
-}
+const App = () => {
+  const [useDemo, setUseDemo] = useState(false);
+  const [useMpg, setUseMpg] = useState(false);
+
+  const handleUseDemo = e => {
+    e.preventDefault();
+    setUseMpg(false);
+    setUseDemo(true);
+  };
+  const handleUseMpg = e => {
+    e.preventDefault();
+    setUseMpg(true);
+    setUseDemo(false);
+  };
+  const handleReset = e => {
+    e.preventDefault();
+    setUseMpg(false);
+    setUseDemo(false);
+  };
+  return (
+    <React.Fragment>
+      {useDemo && <h1>Use the demo!</h1>}
+      {useMpg && <h1>Use the mpg app!</h1>}
+      <AppWrapper>
+        <AppHeader>
+          <AppLogo src={logo} alt="logo" />
+          <AppIntro>App switcher Loading screen</AppIntro>
+          <AppIntro>
+            Components styled with <code>styled-components</code>{' '}
+            <span aria-label="nail polish" role="img">
+              💅
+            </span>
+          </AppIntro>
+          <AppLink onClick={handleUseDemo}>Use Demo</AppLink>
+          <AppLink onClick={handleUseMpg}>Use Mpg</AppLink>
+          <AppLink onClick={handleReset}>Reset</AppLink>
+        </AppHeader>
+      </AppWrapper>
+      <GlobalStyle />
+    </React.Fragment>
+  );
+};
 
 export default App;

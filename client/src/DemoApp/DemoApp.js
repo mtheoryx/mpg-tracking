@@ -68,9 +68,7 @@ class DemoApp extends Component {
         <AppWrapper>
           <AppHeader>
             <AppLogo src={logo} alt="logo" />
-            <AppIntro>
-              Edit <code>src/App.js</code> and save to reload.
-            </AppIntro>
+            <AppIntro>This is for the Demo!</AppIntro>
             <AppIntro>
               Components styled with <code>styled-components</code>{' '}
               <span aria-label="nail polish" role="img">
