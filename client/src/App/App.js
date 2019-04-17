@@ -54,6 +54,8 @@ const AppHeader = styled.header`
 
 const AppLink = styled.a`
   color: #61dafb;
+  cursor: pointer;
+  font-size: 2em;
 `;
 
 const AppIntro = styled.p`
@@ -64,42 +66,50 @@ const AppIntro = styled.p`
 `;
 
 const App = () => {
-  const [useDemo, setUseDemo] = useState(false);
-  const [useMpg, setUseMpg] = useState(false);
+  const [viewDemo, setViewDemo] = useState(false);
+  const [viewMpg, setViewMpg] = useState(true);
+  const [viewNothing, setViewNothing] = useState(false);
 
   const handleUseDemo = e => {
     e.preventDefault();
-    setUseMpg(false);
-    setUseDemo(true);
+    setViewMpg(false);
+    setViewDemo(true);
+    setViewNothing(false);
   };
   const handleUseMpg = e => {
     e.preventDefault();
-    setUseMpg(true);
-    setUseDemo(false);
+    setViewMpg(true);
+    setViewDemo(false);
+    setViewNothing(false);
   };
   const handleReset = e => {
     e.preventDefault();
-    setUseMpg(false);
-    setUseDemo(false);
+    setViewMpg(false);
+    setViewDemo(false);
+    setViewNothing(true);
   };
   return (
     <React.Fragment>
-      {useDemo && <h1>Use the demo!</h1>}
-      {useMpg && <h1>Use the mpg app!</h1>}
+      {viewDemo && <DemoApp />}
+      {viewMpg && <MpgApp />}
       <AppWrapper>
         <AppHeader>
-          <AppLogo src={logo} alt="logo" />
-          <AppIntro>App switcher Loading screen</AppIntro>
-          <AppIntro>
-            Components styled with <code>styled-components</code>{' '}
-            <span aria-label="nail polish" role="img">
-              💅
-            </span>
-          </AppIntro>
-          <AppLink onClick={handleUseDemo}>Use Demo</AppLink>
-          <AppLink onClick={handleUseMpg}>Use Mpg</AppLink>
-          <AppLink onClick={handleReset}>Reset</AppLink>
+          {viewNothing && (
+            <React.Fragment>
+              <AppLogo src={logo} alt="logo" />
+              <AppIntro>App switcher Loading screen</AppIntro>
+              <AppIntro>
+                Components styled with <code>styled-components</code>{' '}
+                <span aria-label="nail polish" role="img">
+                  💅
+                </span>
+              </AppIntro>
+            </React.Fragment>
+          )}
         </AppHeader>
+        <AppLink onClick={handleUseDemo}>Use Demo</AppLink> <br />
+        <AppLink onClick={handleUseMpg}>Use Mpg</AppLink> <br />
+        <AppLink onClick={handleReset}>Reset</AppLink> <br />
       </AppWrapper>
       <GlobalStyle />
     </React.Fragment>

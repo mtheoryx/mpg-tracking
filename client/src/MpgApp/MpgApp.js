@@ -1,93 +1,63 @@
-import React, { Component } from 'react';
-import styled, { keyframes, createGlobalStyle } from 'styled-components';
-import logo from './logo.svg';
+import React from 'react';
+import Display from './Display/Display';
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+const fakeData = [
+  {
+    date: new Date(8, 22, 15),
+    odometer: 72,
+    fuel: 2.666,
+    cost: 17.27,
+    location: null
+  },
+  {
+    date: new Date(8, 29, 15),
+    odometer: 224,
+    fuel: 5.5,
+    cost: 13.74,
+    location: null
+  },
+  {
+    date: new Date(9, 5, 15),
+    odometer: 380,
+    fuel: 5.731,
+    cost: 12.89,
+    location: null
+  },
+  {
+    date: new Date(9, 13, 15),
+    odometer: 526,
+    fuel: 5.474,
+    cost: 10.89,
+    location: null
+  },
+  {
+    date: new Date(9, 19, 15),
+    odometer: 713,
+    fuel: 6.687,
+    cost: 14.64,
+    location: null
+  },
+  {
+    date: new Date(9, 26, 15),
+    odometer: 904,
+    fuel: 7.017,
+    cost: 16.83,
+    location: null
+  },
+  {
+    date: new Date(10, 3, 15),
+    odometer: 1040,
+    fuel: 5.154,
+    cost: 12.78,
+    location: null
   }
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
-  }
-`;
+];
 
-const AppWrapper = styled.div`
-  text-align: center;
-`;
-
-const rotate360 = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
-
-const AppLogo = styled.img`
-  animation: ${rotate360} infinite 20s linear;
-  height: 40vmin;
-  &:hover {
-    animation: ${rotate360} infinite 3s linear;
-  }
-`;
-
-const AppHeader = styled.header`
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-`;
-
-const AppLink = styled.a`
-  color: #61dafb;
-`;
-
-const AppIntro = styled.p`
-  font-size: large;
-  code {
-    font-size: 1.3rem;
-  }
-`;
-
-class MpgApp extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <AppWrapper>
-          <AppHeader>
-            <AppLogo src={logo} alt="logo" />
-            <AppIntro>This is for the MPG app</AppIntro>
-            <AppIntro>
-              Components styled with <code>styled-components</code>{' '}
-              <span aria-label="nail polish" role="img">
-                💅
-              </span>
-            </AppIntro>
-            <AppLink
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </AppLink>
-          </AppHeader>
-        </AppWrapper>
-        <GlobalStyle />
-      </React.Fragment>
-    );
-  }
-}
+const MpgApp = () => (
+  <React.Fragment>
+    <span>Entries:</span>
+    <Display items={[]} count={5} />
+  </React.Fragment>
+);
 
 export default MpgApp;
