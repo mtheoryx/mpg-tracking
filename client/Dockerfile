@@ -7,6 +7,6 @@ RUN npm install --quiet
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3000 9229
 
 CMD ["npm", "run", "start"]
