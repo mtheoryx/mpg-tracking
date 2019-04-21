@@ -92,25 +92,28 @@ const App = () => {
     <React.Fragment>
       {viewDemo && <DemoApp />}
       {viewMpg && <MpgApp />}
-      <AppWrapper>
-        <AppHeader>
-          {viewNothing && (
-            <React.Fragment>
-              <AppLogo src={logo} alt="logo" />
-              <AppIntro>App switcher Loading screen</AppIntro>
-              <AppIntro>
-                Components styled with <code>styled-components</code>{' '}
-                <span aria-label="nail polish" role="img">
-                  💅
-                </span>
-              </AppIntro>
-            </React.Fragment>
-          )}
-        </AppHeader>
-        <AppLink onClick={handleUseDemo}>Use Demo</AppLink> <br />
-        <AppLink onClick={handleUseMpg}>Use Mpg</AppLink> <br />
-        <AppLink onClick={handleReset}>Reset</AppLink> <br />
-      </AppWrapper>
+      {viewNothing && (
+        <AppWrapper>
+          <AppHeader>
+            {viewNothing && (
+              <React.Fragment>
+                <AppLogo src={logo} alt="logo" />
+                <AppIntro>App switcher Loading screen</AppIntro>
+                <AppIntro>
+                  Components styled with <code>styled-components</code>{' '}
+                  <span aria-label="nail polish" role="img">
+                    💅
+                  </span>
+                </AppIntro>
+              </React.Fragment>
+            )}
+          </AppHeader>
+          <AppLink onClick={handleUseDemo}>Use Demo</AppLink> <br />
+          <AppLink onClick={handleUseMpg}>Use Mpg</AppLink> <br />
+          <AppLink onClick={handleReset}>Reset</AppLink> <br />
+        </AppWrapper>
+      )}
+
       <GlobalStyle />
     </React.Fragment>
   );
