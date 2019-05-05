@@ -189,3 +189,4 @@ $RECYCLE.BIN/
 
 engineer-notes.md
 .vscode/*
+*.sqlite
