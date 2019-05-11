@@ -1,1 +1,485 @@
-[{"date":"2015-08-22T04:00:00.000Z","odometer":72,"fuel":2.666,"cost":17.27,"location":null},{"date":"2015-08-29T04:00:00.000Z","odometer":224,"fuel":5.5,"cost":13.74,"location":null},{"date":"2015-09-05T04:00:00.000Z","odometer":380,"fuel":5.731,"cost":12.89,"location":null},{"date":"2015-09-13T04:00:00.000Z","odometer":526,"fuel":5.474,"cost":10.89,"location":null},{"date":"2015-09-19T04:00:00.000Z","odometer":713,"fuel":6.687,"cost":14.64,"location":null},{"date":"2015-09-26T04:00:00.000Z","odometer":904,"fuel":7.017,"cost":16.83,"location":null},{"date":"2015-10-03T04:00:00.000Z","odometer":1040,"fuel":5.154,"cost":12.78,"location":null},{"date":"2015-10-10T04:00:00.000Z","odometer":1188,"fuel":5.43,"cost":13.57,"location":null},{"date":"2015-10-17T04:00:00.000Z","odometer":1325,"fuel":5.293,"cost":12.17,"location":null},{"date":"2015-10-20T04:00:00.000Z","odometer":1447,"fuel":4.449,"cost":8.89,"location":null},{"date":"2015-10-31T04:00:00.000Z","odometer":1581,"fuel":5.182,"cost":11.19,"location":null},{"date":"2015-11-07T05:00:00.000Z","odometer":1714,"fuel":4.988,"cost":10.77,"location":null},{"date":"2015-11-14T05:00:00.000Z","odometer":1855,"fuel":5.579,"cost":11.15,"location":null},{"date":"2015-11-21T05:00:00.000Z","odometer":1987,"fuel":4.848,"cost":8.43,"location":null},{"date":"2015-11-28T05:00:00.000Z","odometer":2058,"fuel":2.89,"cost":5.49,"location":null},{"date":"2015-12-05T05:00:00.000Z","odometer":2201,"fuel":5.596,"cost":10.63,"location":null},{"date":"2015-12-19T05:00:00.000Z","odometer":2468,"fuel":10.418,"cost":18.22,"location":null},{"date":"2016-01-01T05:00:00.000Z","odometer":2653,"fuel":7.252,"cost":13.48,"location":null},{"date":"2015-01-09T05:00:00.000Z","odometer":2792,"fuel":5.52,"cost":9.93,"location":null},{"date":"2016-01-16T05:00:00.000Z","odometer":2923,"fuel":5.412,"cost":8.65,"location":null},{"date":"2016-01-23T05:00:00.000Z","odometer":3069,"fuel":6.076,"cost":8.86,"location":null},{"date":"2016-01-30T05:00:00.000Z","odometer":3199,"fuel":5.007,"cost":8.01,"location":null},{"date":"2016-02-06T05:00:00.000Z","odometer":3330,"fuel":5.067,"cost":7.39,"location":null},{"date":"2016-02-13T05:00:00.000Z","odometer":3463,"fuel":5.417,"cost":8.28,"location":null},{"date":"2016-02-13T05:00:00.000Z","odometer":3618,"fuel":5.896,"cost":9.43,"location":null},{"date":"2016-03-05T05:00:00.000Z","odometer":3910,"fuel":11.25,"cost":20.24,"location":null},{"date":"2016-03-19T04:00:00.000Z","odometer":4169,"fuel":9.269,"cost":17.6,"location":null},{"date":"2016-04-02T04:00:00.000Z","odometer":4455,"fuel":10.806,"cost":20.95,"location":null},{"date":"2016-04-09T04:00:00.000Z","odometer":4608,"fuel":5.753,"cost":11.5,"location":null},{"date":"2016-04-16T04:00:00.000Z","odometer":4738,"fuel":4.48,"cost":9.22,"location":null},{"date":"2016-04-23T04:00:00.000Z","odometer":4869,"fuel":4.811,"cost":10.58,"location":null},{"date":"2016-04-29T04:00:00.000Z","odometer":4963,"fuel":3.805,"cost":8.75,"location":null},{"date":"2016-05-14T04:00:00.000Z","odometer":5361,"fuel":14.202,"cost":30.34,"location":null},{"date":"2016-05-21T04:00:00.000Z","odometer":5523,"fuel":5.84,"cost":14.01,"location":null},{"date":"2016-06-01T04:00:00.000Z","odometer":5762,"fuel":8.143,"cost":18.72,"location":null},{"date":"2016-06-11T04:00:00.000Z","odometer":5976,"fuel":7.344,"cost":19.09,"location":null},{"date":"2016-06-19T04:00:00.000Z","odometer":6180,"fuel":7.491,"cost":17.67,"location":null},{"date":"2016-06-26T04:00:00.000Z","odometer":6346,"fuel":5.947,"cost":12.48,"location":null},{"date":"2016-07-02T04:00:00.000Z","odometer":6487,"fuel":5.068,"cost":9.62,"location":null},{"date":"2016-07-09T04:00:00.000Z","odometer":6590,"fuel":3.697,"cost":8.13,"location":null},{"date":"2016-07-16T04:00:00.000Z","odometer":6741,"fuel":5.215,"cost":11.47,"location":null},{"date":"2016-07-24T04:00:00.000Z","odometer":6895,"fuel":5.726,"cost":11.22,"location":null},{"date":"2016-07-30T04:00:00.000Z","odometer":7024,"fuel":4.845,"cost":10.46,"location":null},{"date":"2016-08-07T04:00:00.000Z","odometer":7184,"fuel":6.074,"cost":11.9,"location":null},{"date":"2016-08-13T04:00:00.000Z","odometer":7314,"fuel":4.84,"cost":10.45,"location":null},{"date":"2016-08-20T04:00:00.000Z","odometer":7447,"fuel":4.726,"cost":10.68,"location":null},{"date":"2017-08-29T04:00:00.000Z","odometer":7598,"fuel":5.592,"cost":12.08,"location":null},{"date":"2016-09-03T04:00:00.000Z","odometer":7741,"fuel":4.708,"cost":10.16,"location":null},{"date":"2016-09-17T04:00:00.000Z","odometer":7985,"fuel":9.168,"cost":20.71,"location":null},{"date":"2016-09-24T04:00:00.000Z","odometer":8112,"fuel":4.292,"cost":8.58,"location":null},{"date":"2016-10-08T04:00:00.000Z","odometer":8359,"fuel":9.047,"cost":20.8,"location":null},{"date":"2016-10-15T04:00:00.000Z","odometer":8523,"fuel":5.686,"cost":11.71,"location":null},{"date":"2016-10-22T04:00:00.000Z","odometer":8682,"fuel":5.891,"cost":11.19,"location":null},{"date":"2016-10-29T04:00:00.000Z","odometer":8824,"fuel":4.94,"cost":10.37,"location":null},{"date":"2016-11-05T04:00:00.000Z","odometer":8966,"fuel":5.365,"cost":11.26,"location":null},{"date":"2016-11-12T05:00:00.000Z","odometer":9085,"fuel":4.492,"cost":8.71,"location":null},{"date":"2016-11-19T05:00:00.000Z","odometer":9215,"fuel":4.756,"cost":10.36,"location":null},{"date":"2016-12-03T05:00:00.000Z","odometer":9409,"fuel":7.651,"cost":16.21,"location":null},{"date":"2016-12-10T05:00:00.000Z","odometer":9552,"fuel":5.815,"cost":13.14,"location":null},{"date":"2016-12-17T05:00:00.000Z","odometer":9729,"fuel":6.979,"cost":16.46,"location":null},{"date":"2016-12-23T05:00:00.000Z","odometer":9855,"fuel":4.789,"cost":10.82,"location":null},{"date":"2017-01-16T05:00:00.000Z","odometer":10140,"fuel":10.961,"cost":22.79,"location":null},{"date":"2017-01-21T05:00:00.000Z","odometer":10295,"fuel":5.937,"cost":12.82,"location":null},{"date":"2017-01-28T05:00:00.000Z","odometer":10437,"fuel":5.556,"cost":10.88,"location":null},{"date":"2017-02-11T05:00:00.000Z","odometer":10702,"fuel":10.134,"cost":22.28,"location":null},{"date":"2017-02-18T05:00:00.000Z","odometer":10851,"fuel":5.599,"cost":12.87,"location":null},{"date":"2017-03-04T05:00:00.000Z","odometer":11093,"fuel":8.94,"cost":19.66,"location":null},{"date":"2017-03-11T05:00:00.000Z","odometer":11242,"fuel":5.675,"cost":11.34,"location":null},{"date":"2017-03-25T04:00:00.000Z","odometer":11500,"fuel":9.673,"cost":20.3,"location":null}]
+[
+  {
+    "date": "2015-08-22T04:00:00.000Z",
+    "odometer": 72,
+    "fuel": 2.666,
+    "cost": 17.27,
+    "location": null
+  },
+  {
+    "date": "2015-08-29T04:00:00.000Z",
+    "odometer": 224,
+    "fuel": 5.5,
+    "cost": 13.74,
+    "location": null
+  },
+  {
+    "date": "2015-09-05T04:00:00.000Z",
+    "odometer": 380,
+    "fuel": 5.731,
+    "cost": 12.89,
+    "location": null
+  },
+  {
+    "date": "2015-09-13T04:00:00.000Z",
+    "odometer": 526,
+    "fuel": 5.474,
+    "cost": 10.89,
+    "location": null
+  },
+  {
+    "date": "2015-09-19T04:00:00.000Z",
+    "odometer": 713,
+    "fuel": 6.687,
+    "cost": 14.64,
+    "location": null
+  },
+  {
+    "date": "2015-09-26T04:00:00.000Z",
+    "odometer": 904,
+    "fuel": 7.017,
+    "cost": 16.83,
+    "location": null
+  },
+  {
+    "date": "2015-10-03T04:00:00.000Z",
+    "odometer": 1040,
+    "fuel": 5.154,
+    "cost": 12.78,
+    "location": null
+  },
+  {
+    "date": "2015-10-10T04:00:00.000Z",
+    "odometer": 1188,
+    "fuel": 5.43,
+    "cost": 13.57,
+    "location": null
+  },
+  {
+    "date": "2015-10-17T04:00:00.000Z",
+    "odometer": 1325,
+    "fuel": 5.293,
+    "cost": 12.17,
+    "location": null
+  },
+  {
+    "date": "2015-10-20T04:00:00.000Z",
+    "odometer": 1447,
+    "fuel": 4.449,
+    "cost": 8.89,
+    "location": null
+  },
+  {
+    "date": "2015-10-31T04:00:00.000Z",
+    "odometer": 1581,
+    "fuel": 5.182,
+    "cost": 11.19,
+    "location": null
+  },
+  {
+    "date": "2015-11-07T05:00:00.000Z",
+    "odometer": 1714,
+    "fuel": 4.988,
+    "cost": 10.77,
+    "location": null
+  },
+  {
+    "date": "2015-11-14T05:00:00.000Z",
+    "odometer": 1855,
+    "fuel": 5.579,
+    "cost": 11.15,
+    "location": null
+  },
+  {
+    "date": "2015-11-21T05:00:00.000Z",
+    "odometer": 1987,
+    "fuel": 4.848,
+    "cost": 8.43,
+    "location": null
+  },
+  {
+    "date": "2015-11-28T05:00:00.000Z",
+    "odometer": 2058,
+    "fuel": 2.89,
+    "cost": 5.49,
+    "location": null
+  },
+  {
+    "date": "2015-12-05T05:00:00.000Z",
+    "odometer": 2201,
+    "fuel": 5.596,
+    "cost": 10.63,
+    "location": null
+  },
+  {
+    "date": "2015-12-19T05:00:00.000Z",
+    "odometer": 2468,
+    "fuel": 10.418,
+    "cost": 18.22,
+    "location": null
+  },
+  {
+    "date": "2016-01-01T05:00:00.000Z",
+    "odometer": 2653,
+    "fuel": 7.252,
+    "cost": 13.48,
+    "location": null
+  },
+  {
+    "date": "2015-01-09T05:00:00.000Z",
+    "odometer": 2792,
+    "fuel": 5.52,
+    "cost": 9.93,
+    "location": null
+  },
+  {
+    "date": "2016-01-16T05:00:00.000Z",
+    "odometer": 2923,
+    "fuel": 5.412,
+    "cost": 8.65,
+    "location": null
+  },
+  {
+    "date": "2016-01-23T05:00:00.000Z",
+    "odometer": 3069,
+    "fuel": 6.076,
+    "cost": 8.86,
+    "location": null
+  },
+  {
+    "date": "2016-01-30T05:00:00.000Z",
+    "odometer": 3199,
+    "fuel": 5.007,
+    "cost": 8.01,
+    "location": null
+  },
+  {
+    "date": "2016-02-06T05:00:00.000Z",
+    "odometer": 3330,
+    "fuel": 5.067,
+    "cost": 7.39,
+    "location": null
+  },
+  {
+    "date": "2016-02-13T05:00:00.000Z",
+    "odometer": 3463,
+    "fuel": 5.417,
+    "cost": 8.28,
+    "location": null
+  },
+  {
+    "date": "2016-02-13T05:00:00.000Z",
+    "odometer": 3618,
+    "fuel": 5.896,
+    "cost": 9.43,
+    "location": null
+  },
+  {
+    "date": "2016-03-05T05:00:00.000Z",
+    "odometer": 3910,
+    "fuel": 11.25,
+    "cost": 20.24,
+    "location": null
+  },
+  {
+    "date": "2016-03-19T04:00:00.000Z",
+    "odometer": 4169,
+    "fuel": 9.269,
+    "cost": 17.6,
+    "location": null
+  },
+  {
+    "date": "2016-04-02T04:00:00.000Z",
+    "odometer": 4455,
+    "fuel": 10.806,
+    "cost": 20.95,
+    "location": null
+  },
+  {
+    "date": "2016-04-09T04:00:00.000Z",
+    "odometer": 4608,
+    "fuel": 5.753,
+    "cost": 11.5,
+    "location": null
+  },
+  {
+    "date": "2016-04-16T04:00:00.000Z",
+    "odometer": 4738,
+    "fuel": 4.48,
+    "cost": 9.22,
+    "location": null
+  },
+  {
+    "date": "2016-04-23T04:00:00.000Z",
+    "odometer": 4869,
+    "fuel": 4.811,
+    "cost": 10.58,
+    "location": null
+  },
+  {
+    "date": "2016-04-29T04:00:00.000Z",
+    "odometer": 4963,
+    "fuel": 3.805,
+    "cost": 8.75,
+    "location": null
+  },
+  {
+    "date": "2016-05-14T04:00:00.000Z",
+    "odometer": 5361,
+    "fuel": 14.202,
+    "cost": 30.34,
+    "location": null
+  },
+  {
+    "date": "2016-05-21T04:00:00.000Z",
+    "odometer": 5523,
+    "fuel": 5.84,
+    "cost": 14.01,
+    "location": null
+  },
+  {
+    "date": "2016-06-01T04:00:00.000Z",
+    "odometer": 5762,
+    "fuel": 8.143,
+    "cost": 18.72,
+    "location": null
+  },
+  {
+    "date": "2016-06-11T04:00:00.000Z",
+    "odometer": 5976,
+    "fuel": 7.344,
+    "cost": 19.09,
+    "location": null
+  },
+  {
+    "date": "2016-06-19T04:00:00.000Z",
+    "odometer": 6180,
+    "fuel": 7.491,
+    "cost": 17.67,
+    "location": null
+  },
+  {
+    "date": "2016-06-26T04:00:00.000Z",
+    "odometer": 6346,
+    "fuel": 5.947,
+    "cost": 12.48,
+    "location": null
+  },
+  {
+    "date": "2016-07-02T04:00:00.000Z",
+    "odometer": 6487,
+    "fuel": 5.068,
+    "cost": 9.62,
+    "location": null
+  },
+  {
+    "date": "2016-07-09T04:00:00.000Z",
+    "odometer": 6590,
+    "fuel": 3.697,
+    "cost": 8.13,
+    "location": null
+  },
+  {
+    "date": "2016-07-16T04:00:00.000Z",
+    "odometer": 6741,
+    "fuel": 5.215,
+    "cost": 11.47,
+    "location": null
+  },
+  {
+    "date": "2016-07-24T04:00:00.000Z",
+    "odometer": 6895,
+    "fuel": 5.726,
+    "cost": 11.22,
+    "location": null
+  },
+  {
+    "date": "2016-07-30T04:00:00.000Z",
+    "odometer": 7024,
+    "fuel": 4.845,
+    "cost": 10.46,
+    "location": null
+  },
+  {
+    "date": "2016-08-07T04:00:00.000Z",
+    "odometer": 7184,
+    "fuel": 6.074,
+    "cost": 11.9,
+    "location": null
+  },
+  {
+    "date": "2016-08-13T04:00:00.000Z",
+    "odometer": 7314,
+    "fuel": 4.84,
+    "cost": 10.45,
+    "location": null
+  },
+  {
+    "date": "2016-08-20T04:00:00.000Z",
+    "odometer": 7447,
+    "fuel": 4.726,
+    "cost": 10.68,
+    "location": null
+  },
+  {
+    "date": "2017-08-29T04:00:00.000Z",
+    "odometer": 7598,
+    "fuel": 5.592,
+    "cost": 12.08,
+    "location": null
+  },
+  {
+    "date": "2016-09-03T04:00:00.000Z",
+    "odometer": 7741,
+    "fuel": 4.708,
+    "cost": 10.16,
+    "location": null
+  },
+  {
+    "date": "2016-09-17T04:00:00.000Z",
+    "odometer": 7985,
+    "fuel": 9.168,
+    "cost": 20.71,
+    "location": null
+  },
+  {
+    "date": "2016-09-24T04:00:00.000Z",
+    "odometer": 8112,
+    "fuel": 4.292,
+    "cost": 8.58,
+    "location": null
+  },
+  {
+    "date": "2016-10-08T04:00:00.000Z",
+    "odometer": 8359,
+    "fuel": 9.047,
+    "cost": 20.8,
+    "location": null
+  },
+  {
+    "date": "2016-10-15T04:00:00.000Z",
+    "odometer": 8523,
+    "fuel": 5.686,
+    "cost": 11.71,
+    "location": null
+  },
+  {
+    "date": "2016-10-22T04:00:00.000Z",
+    "odometer": 8682,
+    "fuel": 5.891,
+    "cost": 11.19,
+    "location": null
+  },
+  {
+    "date": "2016-10-29T04:00:00.000Z",
+    "odometer": 8824,
+    "fuel": 4.94,
+    "cost": 10.37,
+    "location": null
+  },
+  {
+    "date": "2016-11-05T04:00:00.000Z",
+    "odometer": 8966,
+    "fuel": 5.365,
+    "cost": 11.26,
+    "location": null
+  },
+  {
+    "date": "2016-11-12T05:00:00.000Z",
+    "odometer": 9085,
+    "fuel": 4.492,
+    "cost": 8.71,
+    "location": null
+  },
+  {
+    "date": "2016-11-19T05:00:00.000Z",
+    "odometer": 9215,
+    "fuel": 4.756,
+    "cost": 10.36,
+    "location": null
+  },
+  {
+    "date": "2016-12-03T05:00:00.000Z",
+    "odometer": 9409,
+    "fuel": 7.651,
+    "cost": 16.21,
+    "location": null
+  },
+  {
+    "date": "2016-12-10T05:00:00.000Z",
+    "odometer": 9552,
+    "fuel": 5.815,
+    "cost": 13.14,
+    "location": null
+  },
+  {
+    "date": "2016-12-17T05:00:00.000Z",
+    "odometer": 9729,
+    "fuel": 6.979,
+    "cost": 16.46,
+    "location": null
+  },
+  {
+    "date": "2016-12-23T05:00:00.000Z",
+    "odometer": 9855,
+    "fuel": 4.789,
+    "cost": 10.82,
+    "location": null
+  },
+  {
+    "date": "2017-01-16T05:00:00.000Z",
+    "odometer": 10140,
+    "fuel": 10.961,
+    "cost": 22.79,
+    "location": null
+  },
+  {
+    "date": "2017-01-21T05:00:00.000Z",
+    "odometer": 10295,
+    "fuel": 5.937,
+    "cost": 12.82,
+    "location": null
+  },
+  {
+    "date": "2017-01-28T05:00:00.000Z",
+    "odometer": 10437,
+    "fuel": 5.556,
+    "cost": 10.88,
+    "location": null
+  },
+  {
+    "date": "2017-02-11T05:00:00.000Z",
+    "odometer": 10702,
+    "fuel": 10.134,
+    "cost": 22.28,
+    "location": null
+  },
+  {
+    "date": "2017-02-18T05:00:00.000Z",
+    "odometer": 10851,
+    "fuel": 5.599,
+    "cost": 12.87,
+    "location": null
+  },
+  {
+    "date": "2017-03-04T05:00:00.000Z",
+    "odometer": 11093,
+    "fuel": 8.94,
+    "cost": 19.66,
+    "location": null
+  },
+  {
+    "date": "2017-03-11T05:00:00.000Z",
+    "odometer": 11242,
+    "fuel": 5.675,
+    "cost": 11.34,
+    "location": null
+  },
+  {
+    "date": "2017-03-25T04:00:00.000Z",
+    "odometer": 11500,
+    "fuel": 9.673,
+    "cost": 20.3,
+    "location": null
+  }
+]
